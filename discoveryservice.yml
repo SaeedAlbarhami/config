@@ -1,0 +1,25 @@
+application:
+  name: discoveryservice
+
+spring:
+  profiles.active: development
+
+---
+spring:
+  profiles: development
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+server:
+  port: 8082
+---
+spring:
+  profiles: production
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+server:
+  port: 8082
+
