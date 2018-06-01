@@ -6,10 +6,10 @@ spring:
 ---
 spring:
   profiles: development
-  eureka:
-    client:
-      serviceUrl:
-        defaultZone: http://172.26.150.161:8082/eureka/
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.26.150.161:8082/eureka/
  
 server:
   port: 8085
@@ -17,10 +17,10 @@ server:
 ---
 spring:
   profiles: production
-  eureka:
-    client:
-      serviceUrl:
-        defaultZone: http://172.26.150.161:8082/eureka/
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.26.150.161:8082/eureka/
 server:
   port: 8085
 
