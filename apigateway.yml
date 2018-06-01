@@ -1,12 +1,33 @@
-server:
-  port:8084
-management:
-  security:
-    enabled:false
+spring:
+  application:
+    name: apigateway
+  profiles.active: development
+
+---
+spring:
+  profiles: development
 feign:
   hystrix:
     enabled:true
 eureka:
   client:
     serviceUrl:
-      defaultZone:http://172.26.150.161:8082/eureka/
+      defaultZone: http://172.26.150.161:8082/eureka/
+ 
+server:
+  port: 8084
+
+---
+spring:
+  profiles: production
+feign:
+  hystrix:
+    enabled:true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: localhost:8082/eureka/
+server:
+  port: 8084
+
+
