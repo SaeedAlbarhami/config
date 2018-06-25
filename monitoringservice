@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: monitoringservice
+  profiles.active: development
+
+---
+spring:
+  profiles: development
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.26.150.161:8082/eureka/
+ 
+server:
+  port: 8090
+
+---
+spring:
+  profiles: production
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8082/eureka/
+server:
+  port: 8090
