@@ -25,8 +25,7 @@ server:
   port: 8090
 turbine:
   aggregator:
-    clusterConfig: monitoringservice
-  appConfig: monitoringservice
+    clusterConfig: apigateway 
 
 logging:
   level: INFO
