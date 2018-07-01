@@ -29,5 +29,13 @@ eureka:
       defaultZone: http://localhost:8082/eureka/
 server:
   port: 8084
+  
+turbine:
+  aggregator:
+    clusterConfig: apigateway
+  appConfig: apigateway
+
+logging:
+  level: INFO
 
 
