@@ -27,6 +27,5 @@ server:
   port: 8090 
   turbine:
   aggregator:
-    clusterNameExpression: new String("default")
     clusterConfig: apigateway
   appConfig: apigateway
