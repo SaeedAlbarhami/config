@@ -1,7 +1,7 @@
 spring:
   application:
     name: monitoringservice
-  profiles.active: development
+  profiles.active: production
 
 ---
 spring:
@@ -23,3 +23,10 @@ eureka:
       defaultZone: http://localhost:8082/eureka/
 server:
   port: 8090
+turbine:
+  aggregator:
+    clusterConfig: monitoringservice
+  appConfig: monitoringservice
+
+logging:
+  level: INFO
