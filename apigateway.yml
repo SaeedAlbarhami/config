@@ -32,7 +32,7 @@ server:
   
 turbine:
   aggregator:
-    clusterConfig: apigateway
+    clusterConfig: APIGATEWAY
   appConfig: apigateway
 
 logging:
