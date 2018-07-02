@@ -29,4 +29,6 @@ turbine:
   aggregator:
     clusterConfig: BOOKINGSERVICE,APIGATEWAY
   appConfig: bookingservice,apigateway
+  clusterNameExpression: 'default'
+
 
