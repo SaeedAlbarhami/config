@@ -28,8 +28,6 @@ server:
 turbine:
   aggregator:
     clusterConfig: APIGATEWAY
-  appConfig: bookingservice,apigateway
-  clusterNameExpression: metadata['cluster']
-  combineHostPort: true 
+  appConfig: bookingservice,apigateway 
 
 
