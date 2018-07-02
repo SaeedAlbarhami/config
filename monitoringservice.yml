@@ -27,11 +27,9 @@ server:
   port: 8090 
   
 turbine:
-  aggregator:
-    clusterConfig: IPADDR
   appConfig: bookingservice,apigateway 
-  clusterNameExpression: metadata['cluster']
-  combineHostPort: true 
+  cluster-name-expression: new String('default') 
+  combine-host-port: true
 
 
 
