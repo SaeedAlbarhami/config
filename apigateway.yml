@@ -31,8 +31,8 @@ server:
   port: 8084
   
   turbine:
-  aggregator:
-    clusterConfig: apigateway
-  appConfig: apigateway
+    aggregator:
+      clusterConfig: APIGATEWAY
+    appConfig: apigateway
 
 
