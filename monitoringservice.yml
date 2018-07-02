@@ -25,9 +25,13 @@ eureka:
 
 server:
   port: 8090 
-turbine:  
+  
+turbine:
+  aggregator:
+    clusterConfig: MYCLUSTER
   appConfig: bookingservice,apigateway 
-  clusterNameExpression: 'default'
+  clusterNameExpression: metadata['cluster']
+  combineHostPort: true 
 
 
 
