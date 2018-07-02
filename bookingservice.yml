@@ -17,6 +17,9 @@ server:
 ---
 spring:
   profiles: production
+feign:
+  hystrix:
+    enabled:true
 eureka:
   client:
     serviceUrl:
