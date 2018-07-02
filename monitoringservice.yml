@@ -25,4 +25,8 @@ eureka:
 
 server:
   port: 8090 
+turbine:
+  aggregator:
+    clusterConfig: APIGATEWAY
+  appConfig: apigateway
 
