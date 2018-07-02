@@ -30,9 +30,9 @@ eureka:
 server:
   port: 8084
   
-  turbine:
-    aggregator:
-      clusterConfig: APIGATEWAY
-    appConfig: apigateway
+turbine:
+  aggregator:
+    clusterConfig: APIGATEWAY
+  appConfig: apigateway
 
 
