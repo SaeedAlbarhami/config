@@ -27,6 +27,6 @@ server:
   port: 8090 
 turbine:
   aggregator:
-    clusterConfig: BOOKINGSERVICE
-  appConfig: bookingservice
+    clusterConfig: APIGATEWAY
+  appConfig: apigateway
 
