@@ -27,6 +27,6 @@ server:
   port: 8090 
 turbine:
   aggregator:
-    clusterConfig: API
+    clusterConfig: APIGATEWAY
   appConfig: apigateway
 
