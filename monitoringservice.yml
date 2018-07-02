@@ -28,5 +28,5 @@ server:
 turbine:
   aggregator:
     clusterConfig: APIGATEWAY
-  appConfig: apigateway
+  appConfig: api
 
