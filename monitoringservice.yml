@@ -27,7 +27,7 @@ server:
   port: 8090 
   
 turbine:
-  appConfig: bookingservice,apigateway 
+  appConfig: apigateway, bookingservice, carservice, customerservice
   cluster-name-expression: new String('default') 
   combine-host-port: true
 
