@@ -28,7 +28,7 @@ server:
   
 turbine:
   aggregator:
-    clusterConfig: MYCLUSTER
+    clusterConfig: ipAddr
   appConfig: bookingservice,apigateway 
   clusterNameExpression: metadata['cluster']
   combineHostPort: true 
