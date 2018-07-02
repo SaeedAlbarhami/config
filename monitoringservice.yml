@@ -27,6 +27,6 @@ server:
   port: 8090 
 turbine:
   aggregator:
-    clusterConfig: API
-  appConfig: api
+    clusterConfig: MONITORINGSERVICE
+  appConfig: monitoringservic
 
