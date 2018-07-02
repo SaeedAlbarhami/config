@@ -27,6 +27,6 @@ server:
   port: 8090 
 turbine:
   aggregator:
-    clusterConfig: MONITORINGSERVICE
-  appConfig: monitoringservice
+    clusterConfig: BOOKINGSERVICE
+  appConfig: bookingservice
 
