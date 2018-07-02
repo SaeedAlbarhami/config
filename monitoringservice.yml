@@ -28,5 +28,5 @@ server:
 turbine:
   aggregator:
     clusterConfig: BOOKINGSERVICE
-  appConfig: bookingservice
+  appConfig: bookingservice, apigateway
 
