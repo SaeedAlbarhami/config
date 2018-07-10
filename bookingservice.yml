@@ -23,7 +23,7 @@ feign:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8082/eureka/
+      defaultZone: http://10.244.0.15:8082/eureka/
 server:
   port: 8085
 
