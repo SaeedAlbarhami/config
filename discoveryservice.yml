@@ -19,8 +19,6 @@ server:
 spring:
   profiles: production
 eureka:
-  instance:
-    prefer-ip-address: true
   client:
     registerWithEureka: false
     fetchRegistry: false
