@@ -3,7 +3,8 @@ application:
 
 spring:
   profiles.active: development
-
+server:
+  contextPath: /discovery
 ---
 spring:
   profiles: development
