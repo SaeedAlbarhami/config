@@ -3,7 +3,7 @@ spring:
     name: carservice
   profiles.active: development
 server:
-  contextPath: /cars
+  contextPath: /
 ---
 spring:
   profiles: development
