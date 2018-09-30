@@ -10,7 +10,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://172.26.150.161:8082/eureka/
+      defaultZone: https://k8s.mrhecloud.com/eureka/
  
 server:
   port: 8087
@@ -21,7 +21,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://10.10.100.16:30002/eureka/
+      defaultZone: https://k8s.mrhecloud.com/eureka/
 server:
   port: 8087
 
