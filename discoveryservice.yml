@@ -22,7 +22,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://10.10.100.19:30002/eureka/
+      defaultZone: https://k8s.mrhecloud.com/eureka/
     registerWithEureka: false
     fetchRegistry: false
 server:
