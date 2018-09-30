@@ -4,7 +4,7 @@ application:
 spring:
   profiles.active: development
 server:
-  contextPath: /eureka
+  contextPath: /discovery
 ---
 spring:
   profiles: development
@@ -22,7 +22,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://k8s.mrhecloud.com/eureka/
+      defaultZone: http://k8s.mrhecloud.com/discovery/eureka/
     registerWithEureka: false
     fetchRegistry: false
 server:
