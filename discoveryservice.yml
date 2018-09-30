@@ -4,7 +4,7 @@ application:
 spring:
   profiles.active: development
 server:
-  contextPath: /discovery
+  contextPath: /eureka
 ---
 spring:
   profiles: development
