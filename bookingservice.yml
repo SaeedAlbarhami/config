@@ -3,7 +3,7 @@ spring:
     name: bookingservice
   profiles.active: production
 server:
-  contextPath: /discovery
+  contextPath: /bookings
 ---
 spring:
   profiles: development
