@@ -2,7 +2,8 @@ spring:
   application:
     name: apigateway
   profiles.active: production
-
+server:
+  contextPath: /gateway
 ---
 spring:
   profiles: development
@@ -12,7 +13,7 @@ feign:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://172.26.150.161:8082/eureka/
+      defaultZone: http://k8s.mrhecloud.com/discovery/eureka/
  
 server:
   port: 8084
@@ -26,7 +27,7 @@ feign:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://10.10.100.16:30002/eureka/
+      defaultZone: http://k8s.mrhecloud.com/discovery/eureka/
 server:
   port: 8084
   
