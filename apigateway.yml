@@ -13,7 +13,7 @@ feign:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://10.100.96.171:8761/
+      defaultZone: http://40.113.121.37/
  
 server:
   port: 8084
@@ -27,7 +27,7 @@ feign:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://10.100.96.171:8761/
+      defaultZone: http://40.113.121.37/eureka/
 server:
   port: 8084
   
