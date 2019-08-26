@@ -15,16 +15,16 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
 server:
-  port: 8082
+  port: 80
 ---
 spring:
   profiles: production
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://k8s.mrhecloud.com/discovery/eureka/
+      defaultZone: http://40.113.121.37/
     registerWithEureka: false
     fetchRegistry: false
 server:
-  port: 8082
+  port: 80
 
