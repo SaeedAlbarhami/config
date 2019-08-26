@@ -10,7 +10,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://40.113.121.37/
+      defaultZone: http://40.113.121.37/eureka/
  
 server:
   port: 8087
@@ -21,7 +21,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://40.113.121.37/
+      defaultZone: http://40.113.121.37/eureka/
 server:
   port: 8087
 
